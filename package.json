@@ -9,12 +9,29 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/css": "^11.9.0",
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@openzeppelin/contracts": "^4.5.0",
+    "@walletconnect/web3-provider": "^1.7.5",
+    "chai": "^4.3.6",
+    "easymde": "^2.16.1",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.6.0",
+    "hardhat": "^2.9.1",
+    "ipfs-http-client": "^56.0.1",
     "next": "12.1.0",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-markdown": "^8.0.1",
+    "react-simplemde-editor": "^5.0.2",
+    "web3modal": "^1.9.5"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.7",
     "eslint": "8.11.0",
-    "eslint-config-next": "12.1.0"
+    "eslint-config-next": "12.1.0",
+    "postcss": "^8.4.13",
+    "tailwindcss": "^3.0.24"
   }
 }
